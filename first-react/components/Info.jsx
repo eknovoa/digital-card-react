@@ -1,7 +1,7 @@
 export default function Info() {
   return (
     <div class="info-container">
-      <img className="card-img" src="./images/profile.jpg" alt="" />
+      <img className="card-img" src="/images/profile.jpg" alt="" />
       <h1 className="name">Erin Novoa</h1>
       <p className="role">Frontend Developer</p>
       <a className="portfolio-link" href="https://eknovoa.github.io/erin-novoa-portfolio/" target="_blank">My Portfolio</a>
