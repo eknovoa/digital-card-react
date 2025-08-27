@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #23252C;
+}
+
+#root {
+    height: auto;
+    width: 317px;
+    box-sizing: border-box;
+    background-color: #1A1B21;
+    margin: 0 auto;
+}
+
+.card-img {
+    width: 317px;
+    height: auto;
+    
+}
+
+.name, .role {
+    text-align: center;
+    margin: 5px 0px;
+}
+
+.info-container {
+    background-color: #1A1B21;
+}
+
+.name {
+    color: white;
+}
+
+.role {
+    color: #F3BF99;
+}
+
+.portfolio-link {
+    color: #F5F5F5;
+    display: flex;
+    justify-content: center;
+}
+
+.portfolio-link:hover {
+    color: #F3BF99;
+    opacity: 0.5;
+}
+
+.info-btns {
+    display: flex;
+    justify-content: center;
+    margin: 5px 0px;
+    padding: 10px 0px;
+}
+
+.email-btn {
+    background-color: #F5F5F5;
+    color: #1E1F26;
+}
+
+.linkedin-btn {
+    background-color: #5093E2;
+    color: #FFFFFF;
+}
+
+.email-btn, .linkedin-btn {
+    border-radius: 5px;
+    padding: 7px 20px;
+    margin: 0px 5px;
+    text-decoration: none;
+}
+
+.email-btn:hover, .linkedin-btn:hover {
+    opacity: 0.85;
+}
+
+.about-container, .interests-container {
+    background-color: #1A1B21;
+    color: white;
+    padding: 0px 20px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+
+    padding: 20px 0px;
+    background-color: #161619;
+}
+
+.footer-icon {
+    margin: 0px 5px;
+    color: #918E9B; 
+}
+
+.footer-icon:hover {
+    opacity: 0.85;
+}
